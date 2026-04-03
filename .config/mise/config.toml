@@ -1,0 +1,8 @@
+[settings]
+lockfile = true
+
+[tools]
+odin = { version = "latest", exe = "odin" }
+
+[tasks.'core:check']
+run = "odin check src/lib/core -no-entry-point"

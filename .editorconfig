@@ -11,3 +11,19 @@ trim_trailing_whitespace = true
 [*.md]
 indent_style = space
 indent_size = 2
+
+# =====================================
+# Configuration Files
+# =====================================
+
+[*.toml]
+indent_style = space
+indent_size = 2
+
+# =====================================
+# Project Source Code
+# =====================================
+
+[*.odin]
+indent_style = tab
+#indent_size = unset
